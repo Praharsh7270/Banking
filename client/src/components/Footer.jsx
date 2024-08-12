@@ -47,7 +47,9 @@ export default function FooterCom() {
                 >
                   Github
                 </Footer.Link>
-                <Footer.Link href='https://www.instagram.com/praharshsingh63/'>Instagram</Footer.Link>
+                <Footer.Link href='https://www.instagram.com/praharshsingh63/'
+                 target='_blank'
+                >Instagram</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
@@ -67,10 +69,10 @@ export default function FooterCom() {
             year={new Date().getFullYear()}
           />
           <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
-            <Footer.Icon href='https://www.instagram.com/praharshsingh63/' icon={BsInstagram}/>
-            <Footer.Icon href='https://x.com/PraharshSingh12' icon={BsTwitter}/>
-            <Footer.Icon href='https://github.com/Praharsh7270' icon={BsGithub}/>
-            <Footer.Icon href='https://www.linkedin.com/in/praharsh-singh-822a1224b/' icon={BsLinkedin}/>
+            <Footer.Icon href='https://www.instagram.com/praharshsingh63/' icon={BsInstagram} target='_blank'/>
+            <Footer.Icon href='https://x.com/PraharshSingh12' icon={BsTwitter} target='_blank'/>
+            <Footer.Icon href='https://github.com/Praharsh7270' icon={BsGithub} target='_blank'/>
+            <Footer.Icon href='https://www.linkedin.com/in/praharsh-singh-822a1224b/' icon={BsLinkedin} target='_blank'/>
 
           </div>
         </div>
