@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 
 import { useEffect, useState } from "react";
 import PostCard from "../components/PostCard";
@@ -86,12 +86,7 @@ export default function Home() {
                 <PostCard key={post._id} post={post} />
               ))}
             </div>
-            <Link
-              to={"/search"}
-              className="text-lg text-teal-500 hover:underline text-center"
-            >
-              View all posts
-            </Link>
+            
           </div>
         )}
       </div>

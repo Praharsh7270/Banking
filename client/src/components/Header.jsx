@@ -83,6 +83,9 @@ export default function Header() {
             <Link to={'/dashboard?tab=profile'}>
               <Dropdown.Item>Profile</Dropdown.Item>
             </Link>
+            <Link to={'/account_user'}>
+              <Dropdown.Item>Account created</Dropdown.Item>
+            </Link>
             <Dropdown.Divider />
             <Dropdown.Item onClick={handleSignout}>Sign out</Dropdown.Item>
           </Dropdown>
@@ -104,9 +107,6 @@ export default function Header() {
         </Navbar.Link>
         <Navbar.Link active={path === '/projects'} as={'div'}>
           <Link to='/projects'>Know More</Link>
-        </Navbar.Link>
-        <Navbar.Link active={path === '/account_user'} as={'div'}>
-          <Link to='/account_user'>Accounts created</Link>
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
